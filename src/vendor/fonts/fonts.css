@@ -1,0 +1,11 @@
+@font-face {
+    font-family:'SF UI Display', sans-serif;
+    src: url('./SfUiDisplay/SFUIDisplay-Bold.woff') format('woff'),
+         url('./SfUiDisplay/SFUIDisplay-Bold.woff2') format('woff2'),
+         url('./SfUiDisplay/SFUIDisplay-Light.woff') format('woff'),
+         url('./SfUiDisplay/SFUIDisplay-Light.woff2') format('woff2'),
+         url('./SfUiDisplay/SFUIDisplay-Medium.woff') format('woff'),
+         url('./SfUiDisplay/SFUIDisplay-Medium.woff2') format('woff2'),
+         url('./SfUiDisplay/SFUIDisplay-Semibold.woff') format('woff'),
+         url('./SfUiDisplay/SFUIDisplay-Semibold.woff2') format('woff2');
+}
