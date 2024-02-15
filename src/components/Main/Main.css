@@ -1,0 +1,68 @@
+.main {
+    padding: 0 0 0 260px;
+    min-height: 671px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.container {
+    max-width: 531px;
+    width: 100%;
+    min-height: 545px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 1;
+}
+
+.title {
+    font-family:'SF UI Display', sans-serif;
+    font-size: 52px;
+    font-weight: bold;
+    line-height: 55px;
+    text-align: left;
+    color: #000;
+    max-width: 531px;
+    width: 100%;
+    margin: 0 0 48px 0;
+}
+
+.text {
+    font-family:'SF UI Display', sans-serif;
+    font-size: 23px;
+    font-weight: lighter;
+    line-height: 32px;
+    text-align: left;
+    color: #646464;
+    max-width: 427px;
+    width: 100%;
+    margin: 0 0 121px 0;
+}
+
+.button {
+    font-family:'SF UI Display', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    color: #fff;
+    width: 306px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2A2A2A;
+    border: none;
+    border-radius: 5px;
+}
+
+.image {
+    max-width: 1123px;
+    width: 100%;
+    min-height: 737px;
+    position: absolute;
+    z-index: 0;
+    right: 0;
+    top: 204px;
+}

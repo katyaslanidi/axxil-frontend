@@ -1,0 +1,30 @@
+.header {
+    height: 100%;
+    min-height: 103px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 260px 103px 260px;
+}
+
+.header-logo {
+    width: 140px;
+    height: 46.92px;
+}
+
+.social-icons {
+    width: 96.66px;
+    display: flex;
+    height: 40px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-link {
+
+}
+
+.social-icon {
+    width: 40px;
+    height: 40px;
+}
