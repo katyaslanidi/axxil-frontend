@@ -1,9 +1,9 @@
 import React from "react";
-import style from './Item.module.scss';
+import styles from './Item.module.scss';
 
 function Item({text}) {
     return(
-        <p>
+        <p className={styles.item}>
             {text}
         </p>
     );

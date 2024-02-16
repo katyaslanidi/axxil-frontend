@@ -22,3 +22,143 @@
     visibility: visible;
     opacity: 1;
 }
+
+.popup {
+    background-color: variables.$colorWhite;
+    max-width: 1000px;
+    width: 100%;
+    min-height: 587px;
+    border-radius: 15px;
+    display: flex;
+    align-items: flex-start;
+    // justify-content: space-between;
+    flex-direction: column;
+    position: relative;
+    // padding: 48px 51px 40px 51px;
+}
+
+.popup__close {
+    position: absolute;
+    top: 42px;
+    right: 39px;
+    background-image: url('../../images/closeButton.png');
+    background-size: cover;
+    background-color: variables.$colorWhite;
+    border: none;
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}
+
+// .popup__close_image {
+
+// }
+
+.popup__title {
+    font-family: variables.$primary-font;
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 39px;
+    text-align: left;
+    color: variables.$colorBlack;
+    max-width: 769px;
+    width: 100%;
+    margin: 48px 0 20px 51px;
+}
+
+.popup__text {
+    font-family: variables.$primary-font;
+    font-size: 19px;
+    font-weight: lighter;
+    line-height: 26px;
+    text-align: left;
+    color: variables.$colorBlack;
+    max-width: 527px;
+    width: 100%;
+    margin: 0 0 31px 51px;
+}
+
+.popup__form {
+    min-height: 325px;
+    max-width: 320px;
+    width: 100%;
+    border: none;
+    margin: 0 0 0 51px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    // justify-content: space-between;
+    flex-direction: column;
+}
+
+.popup__container {
+    min-height: 228px;
+    width: 100%;
+    border: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.popup__items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 320px;
+}
+
+.popup__submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 320px;
+    height: 55px;
+    border: none;
+    border-radius: 10px;
+    background-color: variables.$colorSecondBlack;
+    font-family: variables.$primary-font;
+    font-size: 16px;
+    font-weight: bold;
+    color: variables.$colorWhite;
+}
+
+.popup__checkbox_container {
+    width: 320px;
+    height: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 16px;
+}
+
+.popup__checkbox {
+    width: 14px;
+    height: 14px;
+    border: 0.5px solid variables.$colorGrey;
+    border-radius: 4px;
+}
+
+.popup__checkbox_text {
+    font-family: variables.$primary-font;
+    font-size: 12px;
+    font-weight: lighter;
+    line-height: 14px;
+    letter-spacing: 1%;
+    color: variables.$colorGrey;
+}
+
+.popup__checkbox_link {
+    color: variables.$colorGrey;
+}
+
+.popup__image {
+    width: 612px;
+    height: 406px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}

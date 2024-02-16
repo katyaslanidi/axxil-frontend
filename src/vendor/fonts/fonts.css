@@ -9,3 +9,9 @@
          url('./SfUiDisplay/SFUIDisplay-Semibold.woff') format('woff'),
          url('./SfUiDisplay/SFUIDisplay-Semibold.woff2') format('woff2');
 }
+
+@font-face {
+    font-family: 'Tilda Sans VF';
+    src: url('./TildaSansVF/TildaSans-Medium.woff') format('woff'),
+         url('./TildaSansVF/TildaSans-Medium.woff2') format('woff2');
+}

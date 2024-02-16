@@ -1,0 +1,17 @@
+@use "../../../utils/variables";
+
+.item {
+    width: 98.82px;
+    height: 27px;
+    border-radius: 10px;
+    background-color: variables.$colorSecondBlack;
+    color: variables.$colorWhite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: variables.$primary-font;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 14px;
+    margin: 0 0 12px 0;
+}
