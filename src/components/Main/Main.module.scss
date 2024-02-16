@@ -1,3 +1,5 @@
+@use '../../utils/variables';
+
 .main {
     padding: 0 0 0 260px;
     min-height: 671px;
@@ -7,7 +9,7 @@
     flex-direction: row;
 }
 
-.container {
+.main__container {
     max-width: 531px;
     width: 100%;
     min-height: 545px;
@@ -18,32 +20,32 @@
     z-index: 1;
 }
 
-.title {
-    font-family:'SF UI Display', sans-serif;
+.main__title {
+    font-family: variables.$primary-font;
     font-size: 52px;
     font-weight: bold;
     line-height: 55px;
     text-align: left;
-    color: #000;
+    color: variables.$colorBlack;
     max-width: 531px;
     width: 100%;
     margin: 0 0 48px 0;
 }
 
-.text {
-    font-family:'SF UI Display', sans-serif;
+.main__text {
+    font-family: variables.$primary-font;
     font-size: 23px;
     font-weight: lighter;
     line-height: 32px;
     text-align: left;
-    color: #646464;
+    color: variables.$colorGrey;
     max-width: 427px;
     width: 100%;
     margin: 0 0 121px 0;
 }
 
-.button {
-    font-family:'SF UI Display', sans-serif;
+.main__button {
+    font-family: variables.$primary-font;
     font-weight: bold;
     font-size: 18px;
     color: #fff;
@@ -52,12 +54,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #2A2A2A;
+    background-color: variables.$colorSecondBlack;
     border: none;
     border-radius: 5px;
 }
 
-.image {
+.main__image {
     max-width: 1123px;
     width: 100%;
     min-height: 737px;

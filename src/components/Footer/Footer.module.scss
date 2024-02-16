@@ -1,6 +1,7 @@
+@use '../../utils/variables';
+
 .footer {
     margin: 0;
-    /* min-height: 120px; */
     min-height: 14px;
     padding: 19px 260px 109px;
     display: flex;
@@ -8,14 +9,14 @@
     justify-content: flex-end;
 }
 
-.footer-text {
-    font-family:'SF UI Display', sans-serif;
+.footer__text {
+    font-family: variables.$primary-font;
     font-size: 11px;
     font-weight: lighter;
     line-height: 14px;
     letter-spacing: 1%;
     text-decoration: none;
-    color: #646464;
+    color: variables.$colorGrey;
     width: 244px;
     min-height: 14px;
 }

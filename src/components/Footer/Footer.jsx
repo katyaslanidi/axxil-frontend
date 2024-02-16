@@ -1,10 +1,10 @@
 import React from "react";
-import './Footer.css';
+import style from './Footer.module.scss';
 
 function Footer() {
     return(
-        <footer className="footer">
-            <a className="footer-text" href="" target="_blank">
+        <footer className={style.footer}>
+            <a className={style.footer__text} href="" target="_blank">
                 Политика обработки персональных данных
             </a>
         </footer>

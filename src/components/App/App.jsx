@@ -1,19 +1,19 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
-import './App.css'
+import style from './App.module.scss';
 import Main from '../Main/Main';
 import PopUp from '../PopUp/PopUp';
 
 function App() {
   return (
-    <div className="page">
+    <div className={style.page}>
       <Routes>
         <Route
           path="/" 
-          element={<Main />}
+          element={<PopUp />}
         />
       </Routes>
-      <PopUp />
+      {/* <PopUp /> */}
     </div>
   );
 }
