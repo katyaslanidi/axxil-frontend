@@ -4,7 +4,7 @@ import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
 import mainImage from "../../images/mainImage.png";
 
-function Main() {
+function Main({ handleOpenPopup }) {
   return (
     <>
       <Header />
@@ -17,7 +17,12 @@ function Main() {
             Благодаря эффектному дизайну, отстройки от конкурентов и построению
             результативной системы продаж
           </h2>
-          <button className={style.main__button} type="button" name="button">
+          <button 
+            className={style.main__button} 
+            type="button" 
+            name="button"
+            onClick={handleOpenPopup}
+          >
             Рассчитать стоимость
           </button>
         </div>

@@ -13,6 +13,7 @@
   visibility: hidden;
   opacity: 0;
   transition: visibility 0.5s, opacity 0.5s linear;
+  z-index: 2;
 }
 
 .overlay_opened {
@@ -124,6 +125,7 @@
     font-size: 16px;
     font-weight: bold;
     color: variables.$colorWhite;
+    cursor: pointer;
 }
 
 .popup__checkbox_container {

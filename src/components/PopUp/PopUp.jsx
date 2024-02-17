@@ -6,7 +6,6 @@ import Image from "../../images/popupImage.png";
 // import closeButton from "../../images/closeButton.png";
 
 function PopUp({ isOpen, onSubmit, onClose }) {
-  isOpen = true;
   return (
     <div className={`${style.overlay} ${isOpen ? style.overlay_opened : ""}`}>
       <div className={style.popup}>
@@ -15,11 +14,6 @@ function PopUp({ isOpen, onSubmit, onClose }) {
           onClick={onClose}
           className={style.popup__close}
         >
-          {/* <img
-            className={style.popup__close_image}
-            src={closeButton}
-            alt="Закрыть"
-          /> */}
         </button>
         <h2 className={style.popup__title}>
           Заполните форму, чтобы рассчитать стоимость и получить презентацию
